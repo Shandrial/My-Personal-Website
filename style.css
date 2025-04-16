@@ -1,0 +1,59 @@
+html{
+    background-color: rgb(107, 92, 165);
+}
+nav{
+    background-color: rgb(76, 16, 54);
+    border-bottom: 3px solid rgb(113, 169, 247);
+    border-top: 3px solid rgb(113, 169, 247);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(198, 216, 255);
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-links{
+    gap: 20px;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    color: rgb(198, 216, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+#welcome-message{
+    color: rgb(198, 216, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+#quote{
+    color: rgb(198, 216, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(198, 216, 255);
+    background-color: rgb(107, 92, 165);
+    margin: 0;
+    padding: 0;
+}
+p{
+    border-bottom: 3px solid rgb(113, 169, 247);
+    padding: 10px;
+}
+#books{
+    float: right;
+    margin: 0 24px 24px 24px;
+    box-sizing: border-box;
+}
